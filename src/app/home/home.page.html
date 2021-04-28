@@ -1,20 +1,25 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      <div class="logo">
+        <img src="./assets/logo.png">
+      </div>
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  <div class = "container">
+    <div class ="titulo">
+      <h2>Clique para ver as notícias de cada console:</h2>
+    </div>
+    <div class = "banner">
+      <img src="./assets/2.jpg">
+    </div>
+    <br/>
+    <div class = "botoes">
+      <ion-button fill="outline" size="default" color="light">Block Button</ion-button>
+      <ion-button fill="clear" color="success" size="default">Block Button</ion-button>
+    </div>
   </div>
 </ion-content>
