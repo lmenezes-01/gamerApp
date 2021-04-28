@@ -2,7 +2,8 @@
   <ion-toolbar>
     <ion-title>
       <div class="logo">
-        <img src="./assets/logo.png">
+        <img src="./assets/controle.png">
+        <img class="sair" src="./assets/controle.png">
       </div>
     </ion-title>
   </ion-toolbar>
@@ -18,8 +19,16 @@
     </div>
     <br/>
     <div class = "botoes">
-      <ion-button fill="outline" size="default" color="light">Block Button</ion-button>
-      <ion-button fill="clear" color="success" size="default">Block Button</ion-button>
+      <ion-grid>
+        <ion-row>
+          <ion-col size="6">
+            <ion-button routerLink="/playstation" fill="solid" size="default">Playstation 5</ion-button>
+          </ion-col>
+          <ion-col>
+            <ion-button routerLink="/xbox" fill="solid" color="success" size="default">Xbox Serie X</ion-button>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
     </div>
   </div>
 </ion-content>
