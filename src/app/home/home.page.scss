@@ -1,27 +1,42 @@
-#container {
+.container {
   text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+  width: 336px;
+}
 
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+.titulo h2 {
+  color : white;
+  margin-top: 60px;
+  font-size: 17px;
 }
 
 #container strong {
-  font-size: 30px;
+  font-size: 10px;
   line-height: 26px;
+.banner {
+  margin-top: 65px;
+}
+.logo{
+  margin-top: 4px;
+  max-width: 16%;
 }
 
 #container p {
   font-size: 5px;
   line-height: 22px;
 
-  color: #8c8c8c;
-
-  margin: 0;
+.sair{
+  margin-left: 248px;
+  background: grey;
+  max-width: 16%;
 }
 
-#container a {
-  text-decoration: none;
+ion-content {
+  --background: black;
 }
+
+ion-toolbar {
+  --background: black;
+}
+
