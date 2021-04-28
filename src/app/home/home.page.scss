@@ -15,13 +15,15 @@
   margin-top: 65px;
 }
 .logo{
+  margin-top: 4px;
   max-width: 16%;
 }
 
-.logo .sair{
-  margin-left: 218px;
+.sair{
+  margin-left: 248px;
+  background: grey;
+  max-width: 16%;
 }
-
 
 ion-content {
   --background: black;
