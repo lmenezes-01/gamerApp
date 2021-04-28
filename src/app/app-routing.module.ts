@@ -8,9 +8,14 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'playstation',
     pathMatch: 'full'
   },
+  {
+    path: 'playstation',
+    loadChildren: () => import('./playstation/playstation.module').then( m => m.PlaystationPageModule)
+  },
+
 ];
 
 @NgModule({
