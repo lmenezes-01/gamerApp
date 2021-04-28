@@ -10,7 +10,11 @@ const routes: Routes = [
     path: '',
     redirectTo: 'home',
     pathMatch: 'full'
+  },  {
+    path: 'xbox',
+    loadChildren: () => import('./xbox/xbox.module').then( m => m.XboxPageModule)
   },
+
 ];
 
 @NgModule({
