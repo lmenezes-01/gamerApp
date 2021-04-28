@@ -1,0 +1,84 @@
+figure.controle {
+    position: relative;
+    align-self: center;
+}
+
+figure.controle img {
+    width: 100%;
+    right: 100%;
+}
+
+figure.controle figcaption {
+    opacity: 0;
+    position: relative;
+    top: 0px;
+    background-color: rgba(0, 0, 0, .4);
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+}
+
+div#tela {
+    width: 577px;
+    height: 676px;
+    background-color: black;
+    margin: -20px auto 10px auto;
+    padding: 10px;
+}
+
+body {
+    background-color: #000000;
+}
+
+button.default {
+    background-color: red;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 116px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.017em;
+    width: 300px;
+    height: 119px;
+    top: 390px;
+    margin: auto;
+    position: relative;
+    color: #FFFFFF;
+}
+
+header {
+    margin-top: 400px;
+}
+
+footer {
+    background-color: #787676;
+    clear: both;
+    align-content: center;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+figure.casinha {
+    position: relative;
+    align-self: center;
+    margin: auto;
+}
+
+figure.casinha figcaption {
+    opacity: 0;
+    position: relative;
+    top: 0px;
+    background-color: rgba(0, 0, 0, .4);
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+}
