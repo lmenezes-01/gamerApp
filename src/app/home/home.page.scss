@@ -1,5 +1,8 @@
 .container {
   text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+  width: 336px;
 }
 
 .titulo h2 {
@@ -14,6 +17,11 @@
 .logo{
   max-width: 16%;
 }
+
+.logo .sair{
+  margin-left: 218px;
+}
+
 
 ion-content {
   --background: black;
