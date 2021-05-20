@@ -1,0 +1,62 @@
+<!--Container que agrupa os campos do app-->
+<ion-content>
+ 
+<!--Divisão criada para centralizar os cards da página (Está na global.scss)-->  
+  <div class="flex-center">
+
+<!--Card criado para colocar os dados cadastrais-->
+    <ion-card>
+      
+<!--Título da página-->
+      <ion-card-header>
+      <ion-card-title>Register</ion-card-title>
+      </ion-card-header>
+
+<!--Container para agrupar os dados cadastrais-->
+      <ion-card-content>
+<!--Label para inserir os dados cadastrais-->
+        <ion-item>
+          <ion-label position="floating">Name</ion-label>
+          <ion-input type ="text"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">Email</ion-label>
+          <ion-input type ="email"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">Password</ion-label>
+          <ion-input type ="password"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">Confirm password</ion-label>
+          <ion-input type ="password"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">Phone number</ion-label>
+          <ion-input type ="tel"></ion-input>
+        </ion-item>
+      </ion-card-content>
+<!--Usado para fazer uma caixa de opções-->
+          <ion-radio-group>
+            <ion-card-header>
+              <ion-card-title text-transform="small">Accept terms and conditions</ion-card-title>
+            </ion-card-header>
+
+              <ion-item>
+                <ion-label>Yes</ion-label>
+                <ion-radio value="cord"></ion-radio>
+              </ion-item>
+              <ion-item>
+                <ion-label>No</ion-label>
+                <ion-radio value="duesenberg"></ion-radio>
+              </ion-item>
+          </ion-radio-group>
+<!--Botão feito para entrar na página Home-->
+          <div class="flex-center">
+          <ion-button routerLink="/home" color="success" size="Large">Login</ion-button>
+          </div>
+
+    </ion-card>
+  </div>
+</ion-content>
+<!--Fechamento do contanier-->
