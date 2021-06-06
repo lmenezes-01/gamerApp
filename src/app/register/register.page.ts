@@ -18,7 +18,7 @@ export class RegisterPage implements OnInit {
       cssClass: 'my-custom-class',
       header: '',
       subHeader: '',
-      message: 'Você pode optar em compartilhar suas interações ou não com o aplicativo, com a finalizade de melhorarmos nossas implementações.',
+      message: 'Você pode optar em compartilhar suas interações ou não com o aplicativo, com a finalidade de melhorarmos nossas implementações.',
       buttons: ['OK']
     });
 

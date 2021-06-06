@@ -5,16 +5,21 @@
   <div class="flex-center">
 
 <!--Card criado para colocar os dados cadastrais-->
-    <ion-card>
+    
       
 <!--Título da página-->
+    <ion-card>  
       <ion-card-header>
       <ion-card-title>Register</ion-card-title>
       </ion-card-header>
 
 <!--Container para agrupar os dados cadastrais-->
-      <ion-card-content>
+<ion-avatar>
+  <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y">
+</ion-avatar>
+
 <!--Label para inserir os dados cadastrais-->
+      
         <ion-item>
           <ion-label position="floating">Name</ion-label>
           <ion-input type ="text"></ion-input>
@@ -35,11 +40,12 @@
           <ion-label position="floating">Phone number</ion-label>
           <ion-input type ="tel"></ion-input>
         </ion-item>
-      </ion-card-content>
+      </ion-card>
 <!--Usado para fazer uma caixa de opções-->
+        <ion-card>
           <ion-radio-group>
             <ion-card-header>
-              <ion-card-title (click)="presentAlert()" fill="clear" color=blue>Accept terms and conditions</ion-card-title>
+              <ion-card-title (click)="presentAlert()" fill="clear" color="primary">Accept terms and conditions</ion-card-title>
             </ion-card-header>
 
               <ion-item>
@@ -55,8 +61,8 @@
           <div class="flex-center">
           <ion-button routerLink="/home" color="success" size="full">Login</ion-button>
           </div>
-
-    </ion-card>
+        </ion-card>
+    
   </div>
 </ion-content>
 <!--Fechamento do contanier-->
