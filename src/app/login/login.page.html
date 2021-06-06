@@ -4,18 +4,16 @@
 <!--Divisão criada para centralizar os cards da página (Está na global.scss)-->
   <div class="flex-center">
 
-<!--Card criado para colocar os dados de acesso ou direcionamento para registrar-se no app-->
-    <ion-card>
-        
-    <!--Card criado para colocar a imagem da página Login-->
-    <ion-card>
-      <ion-title>
-        <div class="logo">
-          <img src="./assets/logo.png">
-        </div>
-      </ion-title>
-    </ion-card>
 
+<ion-title>
+  <div class="logo">
+    <img src="./assets/logo.png">
+  </div>
+</ion-title>
+
+<!--Card criado para colocar os dados de acesso ou direcionamento para registrar-se no app-->
+<ion-card>
+   
 <!--Container feito para os dados cadastrais-->
       <ion-card-content>
 <!--Labels para colocar informações de acesso-->
@@ -28,7 +26,7 @@
           <ion-input type ="Senha"></ion-input>
         </ion-item>
 <!--Botões feitos para encaminhar mensagem para o e-mail, registrar ou loggar na página-->
-        <ion-button color="dark" fill="clear" size="full">forgot email/password</ion-button>
+        <ion-button color=blue fill="clear" size="full"(click)="presentAlert()">Forgot email/password</ion-button>
         <ion-button routerLink="/home" color="success" size="full">Login</ion-button>
         <ion-button routerLink="/register" color="success" fill="clear" size="full">Register</ion-button>
       </ion-card-content>

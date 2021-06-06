@@ -39,7 +39,7 @@
 <!--Usado para fazer uma caixa de opções-->
           <ion-radio-group>
             <ion-card-header>
-              <ion-card-title text-transform="small">Accept terms and conditions</ion-card-title>
+              <ion-card-title (click)="presentAlert()" fill="clear" color=blue>Accept terms and conditions</ion-card-title>
             </ion-card-header>
 
               <ion-item>
@@ -53,7 +53,7 @@
           </ion-radio-group>
 <!--Botão feito para entrar na página Home-->
           <div class="flex-center">
-          <ion-button routerLink="/home" color="success" size="Large">Login</ion-button>
+          <ion-button routerLink="/home" color="success" size="full">Login</ion-button>
           </div>
 
     </ion-card>
