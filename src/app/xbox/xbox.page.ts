@@ -19,6 +19,6 @@ export class XboxPage implements OnInit {
    ngOnInit(){
      
    }
- 
+   
  
 } 

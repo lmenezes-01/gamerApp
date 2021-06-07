@@ -19,11 +19,11 @@ img {
 .swiper-slide-active { 
 transform: scale(1.05, 1.05); 
  
-ion card { 
+ion-card { 
   img { 
     transform: scale(1,1); 
   } 
-} 
+ } 
 } 
  
 .swiper-slide { 
@@ -58,4 +58,4 @@ ion-content {
  
 ion-toolbar {  
   --background: black; 
-} 
+}
