@@ -1,5 +1,7 @@
 {
   "name": "gamerApp",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

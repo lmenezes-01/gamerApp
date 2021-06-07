@@ -24,3 +24,10 @@ h1 {
     background: grey;
     max-width: 16%;
   }
+  ion-content {
+    --background: black;
+  }
+  
+  ion-toolbar {
+    --background: black;
+  }
