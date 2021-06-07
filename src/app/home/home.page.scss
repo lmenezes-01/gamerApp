@@ -2,7 +2,6 @@
   text-align: center;
   margin-left:auto;
   margin-right:auto;
-  width: 336px;
 }
 
 .titulo h2 {
@@ -11,12 +10,26 @@
   font-size: 17px;
 }
 
+ion-slides.image-slider {
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+.botoes{
+  width: 350px;
+}
 .banner {
   margin-top: 65px;
 }
 .logo{
   margin-top: 4px;
   max-width: 16%;
+}
+
+ion-slides {
+  height: 100%;
 }
 
 .sair{

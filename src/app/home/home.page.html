@@ -14,21 +14,37 @@
     <div class ="titulo">
       <h2>Clique para ver as notícias de cada console:</h2>
     </div>
-    <div class = "banner">
-      <img src="./assets/2.jpg">
-    </div>
-    <br/>
-    <div class = "botoes">
-      <ion-grid>
-        <ion-row>
-          <ion-col>
-            <ion-button routerLink="/playstation" fill="solid" size="default">Playstation 5</ion-button>
-          </ion-col>
-          <ion-col>
-            <ion-button routerLink="/xbox" fill="solid" color="success" size="default">Xbox Serie X</ion-button>
-          </ion-col>
-        </ion-row>
-      </ion-grid>
+    <div class= "banner">
+      <ion-slides pager="true" [options]="slideOpts">
+        <ion-slide>
+          <ion-grid>
+            <ion-row>
+              <div class = "image-slider">
+                <img src="./assets/ps5Logo.jpg">
+              </div>
+            </ion-row>
+            <ion-row>
+              <div class = "botoes">
+                <ion-button routerLink="/playstation" fill="solid" size="default">Playstation 5</ion-button>
+              </div>
+            </ion-row>
+          </ion-grid>
+        </ion-slide>
+        <ion-slide>
+          <ion-grid>
+            <ion-row>
+              <div class = "image-slider">
+                <img src="./assets/xboxLogo.jpg">
+              </div>
+            </ion-row>
+            <ion-row>
+              <div class = "botoes">
+                <ion-button routerLink="/xbox" fill="solid" color="success" size="default">Xbox Serie X</ion-button>
+              </div>
+            </ion-row>
+          </ion-grid>
+        </ion-slide>
+      </ion-slides>
     </div>
   </div>
 </ion-content>
