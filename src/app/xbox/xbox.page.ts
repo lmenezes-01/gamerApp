@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class XboxPage implements OnInit {
 
   constructor() { }
-
+ //
   option = {
     slidesPerView: 1.5,
     centeredSlides: true,
