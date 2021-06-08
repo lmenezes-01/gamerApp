@@ -14,7 +14,7 @@ export class XboxPage implements OnInit {
    centeredSlides: true,
    loop: true,
    spaceBetween: 10,
-   // autoplay: true,
+   autoplay: true,
    }
    ngOnInit(){
      
